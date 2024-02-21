@@ -1,0 +1,11 @@
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\bin\Debug\net7.0\BuberDinner.Contracts.deps.json
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\bin\Debug\net7.0\BuberDinner.Contracts.dll
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\bin\Debug\net7.0\BuberDinner.Contracts.pdb
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\obj\Debug\net7.0\BuberDinner.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\obj\Debug\net7.0\BuberDinner.Contracts.AssemblyInfoInputs.cache
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\obj\Debug\net7.0\BuberDinner.Contracts.AssemblyInfo.cs
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\obj\Debug\net7.0\BuberDinner.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\obj\Debug\net7.0\BuberDinner.Contracts.dll
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\obj\Debug\net7.0\refint\BuberDinner.Contracts.dll
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\obj\Debug\net7.0\BuberDinner.Contracts.pdb
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Contracts\obj\Debug\net7.0\ref\BuberDinner.Contracts.dll

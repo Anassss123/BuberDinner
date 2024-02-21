@@ -1,0 +1,15 @@
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\bin\Debug\net7.0\BuberDinner.Application.deps.json
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\bin\Debug\net7.0\BuberDinner.Application.dll
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\bin\Debug\net7.0\BuberDinner.Application.pdb
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\BuberDinner.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\BuberDinner.Application.AssemblyInfoInputs.cache
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\BuberDinner.Application.AssemblyInfo.cs
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\BuberDinner.Application.csproj.CoreCompileInputs.cache
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\BuberDinner.Application.dll
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\refint\BuberDinner.Application.dll
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\BuberDinner.Application.pdb
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\ref\BuberDinner.Application.dll
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\bin\Debug\net7.0\BuberDinner.Domain.dll
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\bin\Debug\net7.0\BuberDinner.Domain.pdb
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\BuberDinner.Application.csproj.AssemblyReference.cache
+C:\Users\Anas.HAMRAOUI\OneDrive - Akkodis\Documents\Formation\BuberDinner\BuberDinner.Application\obj\Debug\net7.0\BuberDinner.Application.csproj.CopyComplete
