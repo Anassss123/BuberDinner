@@ -47,6 +47,7 @@ builder.Services.AddSwaggerGen(options =>
     });
 });
 builder.Services.AddAutoMapper(typeof(AuthenticationAutoMapper));
+builder.Services.AddAutoMapper(typeof(MenuAutoMapper));
 
 var app = builder.Build();
 
