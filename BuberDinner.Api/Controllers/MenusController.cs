@@ -29,7 +29,10 @@ namespace BuberDinner.Api.Controllers
         {
             var command = _mapper.Map<CreateMenuCommand>((request, hostId));
             var createMenuResult = await _mediator.Send(command);
-            return Ok(request);
+            return createMenuResult.Match(
+                menu => Ok(_mapper.Map<MenuResponse>(menu)),
+                error => Problem(error)
+            );
         }
 
         // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

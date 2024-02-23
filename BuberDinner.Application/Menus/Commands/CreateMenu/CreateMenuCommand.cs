@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using BuberDinner.Domain.Common.Menu;
+using BuberDinner.Domain.Host.ValueObjects;
 using ErrorOr;
 using MediatR;
 
@@ -7,10 +8,10 @@ namespace BuberDinner.Application.Menus.Commands.CreateMenu
 {
     public record CreateMenuCommand : IRequest<ErrorOr<Menu>>
     {
-        public string HostId { get; init; } = default!;
         public string Name { get; init; }= default!;
         public string Description { get; init; }= default!;
         public List<MenuSectionCommand> Sections { get; init; }= default!;
+        public string HostId { get; init; } = default!;
 
         public CreateMenuCommand() { }
 

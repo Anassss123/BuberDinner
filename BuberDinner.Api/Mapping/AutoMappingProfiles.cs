@@ -9,6 +9,10 @@ using BuberDinner.Application.Authentication.Queries.Login;
 using BuberDinner.Application.Menus.Commands.CreateMenu;
 using BuberDinner.Contracts.Authentication;
 using BuberDinner.Contracts.Menus;
+using BuberDinner.Domain.Common.Menu;
+using MenuSection = BuberDinner.Domain.Menu.Entities.MenuSection;
+using MenuItem = BuberDinner.Domain.Menu.Entities.MenuItem;
+
 
 namespace BuberDinner.Api.Mapping
 {
@@ -31,7 +35,33 @@ namespace BuberDinner.Api.Mapping
                             )
                         ).ToList()
                     ));
-            
+            CreateMap<Menu, MenuResponse>()
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id.Value))
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
+                .ForMember(dest => dest.Description, opt => opt.MapFrom(src => src.Description))
+                .ForMember(dest => dest.Sections, opt => opt.MapFrom(src => 
+                    src.Sections.Select(s => 
+                        new MenuSectionResponse(
+                            s.Id.Value.ToString(),
+                            s.Name, 
+                            s.Description, 
+                            s.Items.Select(i => new MenuItemResponse(i.Id.Value.ToString(), i.Name, i.Description)).ToList()
+                        )
+                    ).ToList()
+                ))
+                .ForMember(dest => dest.HostId, opt => opt.MapFrom(src => src.HostId.Value))
+            ;
+            CreateMap<MenuSection, MenuSectionResponse>()
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id.Value))
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
+                .ForMember(dest => dest.Description, opt => opt.MapFrom(src => src.Description))
+                .ForMember(dest => dest.Items, opt => opt.MapFrom(src => 
+                    src.Items.Select(i => new MenuItemResponse(i.Id.Value.ToString(), i.Name, i.Description)).ToList()
+                ));
+            CreateMap<MenuItem, MenuItemResponse>()
+                .ForMember(dest => dest.Id, opt => opt.MapFrom(src => src.Id.Value))
+                .ForMember(dest => dest.Name, opt => opt.MapFrom(src => src.Name))
+                .ForMember(dest => dest.Description, opt => opt.MapFrom(src => src.Description)); 
         }
     }
 }

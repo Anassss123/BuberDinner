@@ -4,14 +4,14 @@
     "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Infrastructure\\BuberDinner.Infrastructure.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
+    "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
+        "projectUniqueName": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
         "projectName": "BuberDinner.Application",
-        "projectPath": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
+        "projectPath": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj",
         "packagesPath": "C:\\Users\\Anas.HAMRAOUI\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\obj\\",
+        "outputPath": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anas.HAMRAOUI\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
-                "projectPath": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj"
+              "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
+                "projectPath": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj"
               }
             }
           }
@@ -87,14 +87,14 @@
         }
       }
     },
-    "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
+    "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
         "projectName": "BuberDinner.Domain",
-        "projectPath": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
+        "projectPath": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\BuberDinner.Domain.csproj",
         "packagesPath": "C:\\Users\\Anas.HAMRAOUI\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\obj\\",
+        "outputPath": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anas.HAMRAOUI\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -168,8 +168,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
-                "projectPath": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj"
+              "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj": {
+                "projectPath": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Application\\BuberDinner.Application.csproj"
               }
             }
           }

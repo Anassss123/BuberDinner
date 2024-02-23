@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using BuberDinner.Domain.Common.Models;
+using BuberDinner.Domain.Menu.Entities;
 
 namespace BuberDinner.Domain.Host.ValueObjects
 {
@@ -13,10 +14,18 @@ namespace BuberDinner.Domain.Host.ValueObjects
         {
             Value = value;
         }
-        public static HostId CreateUnique()
+    public static HostId Create(string value)
+    {
+        if (!Guid.TryParse(value, out Guid guidValue))
         {
-            return new(Guid.NewGuid());
+            throw new ArgumentException("Invalid GUID value.");
         }
+        return new HostId(guidValue);
+    }
+    public static HostId CreateUnique()
+    {
+        return new HostId(Guid.NewGuid());
+    }
          public override IEnumerable<object> GetEqualityComponents()
         {
             yield return Value;

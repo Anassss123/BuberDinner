@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {}
+    "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {
+    "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
         "projectName": "BuberDinner.Contracts",
-        "projectPath": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
+        "projectPath": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\BuberDinner.Contracts.csproj",
         "packagesPath": "C:\\Users\\Anas.HAMRAOUI\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\Anas.HAMRAOUI\\OneDrive - Akkodis\\Documents\\Formation\\BuberDinner\\BuberDinner.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anas.HAMRAOUI\\AppData\\Roaming\\NuGet\\NuGet.Config"
