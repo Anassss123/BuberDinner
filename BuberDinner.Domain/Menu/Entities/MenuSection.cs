@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using BuberDinner.Domain.Menu.ValueObjects;
 using BuberDinner.Domain.Common.Models;
 
-namespace BuberDinner.Domain.Menu.User
+namespace BuberDinner.Domain.Menu.Entities
 {
     public class MenuSection : Entity<MenuSectionId>
     {

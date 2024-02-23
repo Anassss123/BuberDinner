@@ -1,3 +1,4 @@
+using AutoMapper;
 using BuberDinner.Api.Filters;
 using BuberDinner.Api.Mapping;
 using BuberDinner.Application;
@@ -46,8 +47,10 @@ builder.Services.AddSwaggerGen(options =>
         }
     });
 });
-builder.Services.AddAutoMapper(typeof(AuthenticationAutoMapper));
-builder.Services.AddAutoMapper(typeof(MenuAutoMapper));
+// builder.Services.AddAutoMapper(typeof(AuthenticationAutoMapper));
+builder.Services.AddSingleton(profiler => new MapperConfiguration(cfg => {
+    cfg.AddProfile<AutoMappingProfiles>();
+}).CreateMapper());
 
 var app = builder.Build();
 

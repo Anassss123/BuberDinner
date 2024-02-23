@@ -37,8 +37,7 @@ namespace BuberDinner.Domain.Common.Models
             return Equals((object?)other);
         }
     }
-
-    /*public class Price : ValueObject
+    public class Price : ValueObject
     {
         public decimal Amount {get ; private set;}
         public decimal Currency {get ; private set;}
@@ -53,5 +52,27 @@ namespace BuberDinner.Domain.Common.Models
             yield return Amount;
             yield return  Currency;
         }
-    }*/
+    }
+    public class Location : ValueObject
+    {
+        public string Name {get ; private set;}
+        public string Address {get ; private set;}
+        public float Laltitude {get ; private set;}
+        public float Longitude {get ; private set;}
+        public Location (string name, string address, float laltitude, float longitude)
+        {
+            Name = name;
+            Address = address;
+            Laltitude = laltitude;
+            Longitude = longitude; 
+        }
+
+        public override IEnumerable<object> GetEqualityComponents()
+        {
+            yield return Name;
+            yield return Address;
+            yield return Laltitude;
+            yield return Longitude;
+        }
+    }
 }

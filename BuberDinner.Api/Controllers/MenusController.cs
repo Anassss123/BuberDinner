@@ -7,6 +7,7 @@ using AutoMapper;
 using BuberDinner.Application.Menus.Commands.CreateMenu;
 using BuberDinner.Contracts.Menus;
 using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BuberDinner.Api.Controllers
@@ -23,6 +24,7 @@ namespace BuberDinner.Api.Controllers
         }
 
         [HttpPost]
+        [AllowAnonymous]
         public async Task<IActionResult> CreateMenu(CreateMenuRequest request, string hostId)
         {
             var command = _mapper.Map<CreateMenuCommand>((request, hostId));
